@@ -13,8 +13,9 @@ import (
 )
 
 const (
-	sandboxBaseURL    = "https://app.sandbox.cryptoprocessing.com/api/v2/"
-	productionBaseURL = "https://app.coinspaid.com/api/v2/"
+	sandboxBaseURL = "https://app.sandbox.cryptoprocessing.com/api/v2/"
+	//productionBaseURL = "https://app.coinspaid.com/api/v2/"
+	productionBaseURL = "https://app.alphapo.net/api/v2/"
 
 	headerProcessingKey       = "X-Processing-Key"
 	headerProcessingSignature = "X-Processing-Signature"
